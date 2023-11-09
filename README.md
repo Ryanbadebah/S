@@ -1,5 +1,4 @@
-# Sgit clone https://github.com/Ryanbadebah/S
+git clone https://github.com/Ryanbadebah/S
 cd s
-
 git pull
 python s.py
