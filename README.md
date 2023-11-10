@@ -1,4 +1,4 @@
-git clone https://github.com/Ryanbadebah/S
+git clone https://github.com/Ryanbadebah/s
 cd S
 git pull
-python SMBF.py
+python SMBFF.py
