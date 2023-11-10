@@ -354,7 +354,7 @@ def crack_publik():
 		uid.append(Masukan)
 	for user in uid:
 	    try:
-	       graph = ses.get('https://graph.facebook.com/v11.0/'+user+'?fields=friends.limit(99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999)&access_token='+tokene[0], cookies = {'cookies':cok}).json()
+	       graph = ses.get('https://graph.facebook.com/v11.0/'+user+'?fields=('https://graph.facebook.com/v2.0/'+userr+'?fields=friends.limit(5000)&access_token='+tokenku[0], cookies = {'cookies':cok}).json()
 	       for xr in graph['friends']['data']:
 	           try:
 	               gmail = (xr['id']+'|'+xr['name'])
