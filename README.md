@@ -1,4 +1,4 @@
 git clone https://github.com/Ryanbadebah/S
-cd ada
+cd S
 git pull
-python ada.py
+python S.py
